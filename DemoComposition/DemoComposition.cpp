@@ -47,7 +47,7 @@ public:
     }
 
     std::string toString() {
-        return std::format("{}/{}", _numerator, _denominator);
+        //return std::format("{}/{}", _numerator, _denominator);
     }
     ~Fraction() {
         std::cout << "Destructor";
@@ -80,8 +80,8 @@ public:
         //std::cout << "Car's parameterized constructor\n";
     }
     std::string toString() {
-        return  std::format("I am a {} car\n",
-            _brand);
+        // return  std::format("I am a {} car\n",
+        //     _brand);
     }
     ~Car() {
         std::cout << "Car's destructor\n";
@@ -92,9 +92,9 @@ public:
         Vehicle::start();*/
         
         std::cout << "\nTo the new way:";
-        std::cout << std::format(
-        "A {} has its own way to start\n",
-        _brand);
+        //std::cout << std::format(
+        // "A {} has its own way to start\n",
+        // _brand);
     }
 };
 
